@@ -1,0 +1,734 @@
+module,type,name,res_id,src,value,comments
+website_sale,model,"ir.ui.view,arch_db",website_sale.payment_token_form_confirm,! Some processing fees will be applied,! Akan dikenakan biaya tambahan,
+website_sale,model,"ir.ui.view,arch_db",website_sale.payment,(processing fees apply),(biaya pemrosesan berlaku),
+website_sale,model,"ir.ui.view,arch_db",website_sale.product,"30-day money-back guarantee<br/>
+                              Free Shipping in U.S.<br/>
+                              Buy now, get in 2 days","Jaminan uang kembali 30 hari<br/>
+                              Gratis Pengiriman di A.S.<br/>
+                              Beli sekarang, dapatkan dalam 2 hari ",
+website_sale,model,"ir.ui.view,arch_db",website_sale.report_shop_saleorder_document,"<br/>
+                                <strong>Payment Status:</strong>","<br/>
+<strong>Status Pembayaran:</strong>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"<br/>
+                                e.g. for computers:","<br/>
+                                misalnya untuk komputer: ",
+website_sale,model,"ir.ui.view,arch_db",website_sale.payment_token_form_confirm,"<i class=""fa fa-3x fa-credit-card text-muted"" aria-hidden=""true""/><br/>
+                                                Are you sure you want to pay with this card: <br/>","<i class=""fa fa-3x fa-credit-card text-muted"" aria-hidden=""true""/><br/>
+                                                Yakin ingin membayar dengan kartu ini: <br/>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.address_kanban,"<i class=""fa fa-check""/> Ship to this address","<i class=""fa fa-check""/> Kirim ke Alamat ini",
+website_sale,model,"ir.ui.view,arch_db",website_sale.order_state_message,"<i class=""fa fa-cog""/> Configure Transfer Details","<i class=""fa fa-cog""/> Konfigurasikan Detail Transfer ",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"<i class=""fa fa-envelope-o""/> Ask Our Experts","<i class=""fa fa-envelope-o""/> Tanyakan Pada Ahli Kami",
+website_sale,model,"ir.ui.view,arch_db",website_sale.checkout,"<i class=""fa fa-plus-square"" aria-hidden=""true""/> Add an address","<i class=""fa fa-plus-square"" aria-hidden=""true""/> Tambahkan alamat ",
+website_sale,model,"ir.ui.view,arch_db",website_sale.confirmation,"<i class=""fa fa-print""/> Print","<i class=""fa fa-print""/> Cetak",
+website_sale,model,"ir.ui.view,arch_db",website_sale.header,"<i class=""fa fa-shopping-cart""/>
+                    My cart","<i class=""fa fa-shopping-cart""/>
+                    Keranjang saya",
+website_sale,model,"ir.ui.view,arch_db",website_sale.terms,"<small class=""text-muted pull-right"">Source: https://termsfeed.com/blog/sample-terms-and-conditions-template</small>","<small class=""text-muted pull-right"">Source: https://termsfeed.com/blog/sample-terms-and-conditions-template</small>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.cart_lines,"<small><i class=""fa fa-trash-o""/> Remove</small>","<small><i class=""fa fa-trash-o""/> Hapus</small>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.extra_info,"<span class=""btn btn-primary pull-right btn-lg o_website_form_send o_default_snippet_text"">
+                                    <span>Next </span><span class=""fa fa-long-arrow-right""/>
+                                </span>
+                                <span id=""o_website_form_result"" class=""text-danger ml8""/>","<span class=""btn btn-primary pull-right btn-lg o_website_form_send o_default_snippet_text"">
+                                    <span>Lanjut </span><span class=""fa fa-long-arrow-right""/>
+                                </span>
+                                <span id=""o_website_form_result"" class=""text-danger ml8""/>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.total,"<span class=""col-xs-6 text-right h4"">Total:</span>","<span class=""col-xs-6 text-right h4"">Total:</span>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.total,"<span class=""col-xs-6 text-right text-muted"" title=""Taxes may be updated after providing shipping address""> Taxes:</span>","<span class=""col-xs-6 text-right text-muted"" title="" Pajak dapat diperbarui setelah memberikan alamat pengiriman ""> Pajak:</span>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.total,"<span class=""col-xs-6 text-right text-muted"">Subtotal:</span>","<span class=""col-xs-6 text-right text-muted"">Subtotal:</span>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.payment,"<span class=""fa fa-2x fa-credit-card""/>
+                                                Saved Cards","<span class=""fa fa-2x fa-credit-card""/>
+                                                Kartu Tersimpan ",
+website_sale,model,"ir.ui.view,arch_db",website_sale.product,"<span class=""fa fa-check""/>
+                                <span>In Stock</span>","<span class=""fa fa-check""/>
+                                <span>Persediaan</span>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.product,"<span class=""fa fa-chevron-left"" aria-hidden=""true""/>
+                                            <span class=""sr-only"">Previous</span>","<span class=""fa fa-chevron-left"" aria-hidden=""true""/>
+                                            <span class=""sr-only"">sebelumnya</span>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.product,"<span class=""fa fa-chevron-right"" aria-hidden=""true""/>
+                                            <span class=""sr-only"">Next</span>","<span class=""fa fa-chevron-right"" aria-hidden=""true""/>
+                                            <span class=""sr-only"">selanjutnya</span>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"<span class=""fa fa-lightbulb-o fa-2x""/>
+                                Everything is editable in your Odoo website. Feel free to edit any page title, field or button label. Simply hit *Edit* in upper-right corner to start editing the page.","<span class=""fa fa-lightbulb-o fa-2x""/>
+                               Semuanya dapat diedit di situs web Odoo Anda. Jangan ragu untuk mengedit judul halaman, bidang, atau label tombol. Cukup tekan * Edit * di pojok kanan atas untuk mulai mengedit halaman. ",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"<span class=""fa fa-lightbulb-o fa-2x""/>
+                                Offering free delivery with a minimum amount or minimum number of items should drive up your average order value and help to compensate for the delivery costs.","<span class=""fa fa-lightbulb-o fa-2x""/>
+                                Menawarkan pengiriman gratis dengan jumlah minimum atau jumlah minimum item akan meningkatkan nilai pesanan rata-rata Anda dan membantu mengkompensasi biaya pengiriman. ",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"<span class=""fa fa-lightbulb-o fa-2x""/>
+                                You can create different rates based on order amount ranges (e.g. $10 up to a $50 order, then $5 beyond).","<span class=""fa fa-lightbulb-o fa-2x""/>
+                                Anda dapat membuat tarif berbeda berdasarkan rentang jumlah pesanan (mis. $ 10 hingga pesanan $ 50, lalu $ 5 lebih). ",
+website_sale,model,"ir.ui.view,arch_db",website_sale.continue_shopping,"<span class=""fa fa-long-arrow-left""/>
+                <span class=""hidden-xs"">Continue Shopping</span>
+                <span class=""visible-xs-inline"">Continue</span>","<span class=""fa fa-long-arrow-left""/>
+                <span class=""hidden-xs"">lanjut belanja</span>
+                <span class=""visible-xs-inline"">lanjut</span>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.address,"<span class=""fa fa-long-arrow-left""/> Back","<span class=""fa fa-long-arrow-left""/> kembali",
+website_sale,model,"ir.ui.view,arch_db",website_sale.checkout,"<span class=""fa fa-long-arrow-left""/> Return to Cart","<span class=""fa fa-long-arrow-left""/> kembali ke troli",
+website_sale,model,"ir.ui.view,arch_db",website_sale.cart,"<span class=""hidden-xs"">Process Checkout</span>
+                                <span class=""visible-xs-inline"">Checkout</span>
+                                <span class=""fa fa-long-arrow-right""/>","<span class=""hidden-xs"">Process Checkout</span>
+                                <span class=""visible-xs-inline"">Checkout</span>
+                                <span class=""fa fa-long-arrow-right""/>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.payment,"<span class=""js_radio fa fa-circle-o""/>&amp;nbsp;","<span class=""js_radio fa fa-circle-o""/>&amp;nbsp;",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"<span class=""panel-title"">
+                                        <span class=""fa"" data-icon=""&#57408;""/>
+                                        <strong>Import a file</strong><br/>
+                                        <span class=""small"">Recommended if &gt;50 items</span>
+                                    </span>","<span class=""panel-title"">
+                                        <span class=""fa"" data-icon=""&#57408;""/>
+                                        <strong>Impor file</strong><br/>
+                                        <span class=""small"">Direkomendasikan jika & gt;50 item</span>
+                                    </span>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"<span class=""panel-title"">
+                                        <span class=""fa"" data-icon=""&#57440;""/>
+                                        <strong> Create manually</strong><br/>
+                                        <span class=""small"">Recommended if &lt;50 items</span>
+                                    </span>","<span class=""panel-title"">
+                                        <span class=""fa"" data-icon=""&#57440;""/>
+                                        <strong> buat secara manual</strong><br/>
+                                        <span class=""small"">Direkomendasikan jika &lt;50 item</span>
+                                    </span>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"<span class=""panel-title"">
+                                        <strong> Cross-selling</strong>
+                                    </span>","<span class=""panel-title"">
+                                        <strong> Cross-selling</strong>
+                                    </span>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"<span class=""panel-title"">
+                                        <strong> Rules &amp; Formulas</strong>
+                                    </span>","<span class=""panel-title"">
+                                        <strong> Ketentuan &amp; Rumus</strong>
+                                    </span>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"<span class=""panel-title"">
+                                        <strong>Average baskets are &gt; 5 items?</strong><br/>
+                                            <span class=""small""/>
+                                    </span>","<span class=""panel-title"">
+                                        <strong>Rata-rata keranjang & gt; 5 item?</strong><br/>
+                                            <span class=""small""/>
+                                    </span>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"<span class=""panel-title"">
+                                        <strong>Destination-based</strong><br/>
+                                            <span class=""small"">Most common</span>
+                                    </span>","<span class=""panel-title"">
+                                        <strong>Berbasis tujuan</strong><br/>
+                                            <span class=""small"">Paling umum</span>
+                                    </span>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"<span class=""panel-title"">
+                                        <strong>Origin-based</strong><br/>
+                                        <span class=""small"">in some US states, etc.</span>
+                                    </span>","<span class=""panel-title"">
+                                        <strong>Berbasis asal</strong><br/>
+                                        <span class=""small"">di beberapa negara bagian AS, dll.</span>
+                                    </span>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"<span class=""panel-title"">
+                                        <strong>Several Prices</strong>
+                                    </span>","<span class=""panel-title"">
+                                        <strong>Beberapa Harga</strong>
+                                    </span>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"<span class=""panel-title"">
+                                        <strong>Unique Price</strong>
+                                    </span>","<span class=""panel-title"">
+                                        <strong>Harga unik</strong>
+                                    </span>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"<span class=""panel-title"">
+                                        <strong>Upselling</strong>
+                                    </span>","<span class=""panel-title"">
+                                        <strong>Upselling</strong>
+                                    </span>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"<span class=""panel-title"">
+                                        <strong>You are in the US?</strong><br/>                                        
+                                    </span>","<span class=""panel-title"">
+                                        <strong>Anda berada di AS?</strong><br/>                                        
+                                    </span>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"<span class=""panel-title"">
+                                        <strong>You have a broad catalog?</strong><br/>
+                                    </span>","<span class=""panel-title"">
+                                        <strong>Anda memiliki katalog yang luas?</strong><br/>
+                                    </span>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"<span class=""panel-title"">
+                                    <span class=""fa fa-check-square-o""/>
+                                    <strong>Customize you product catalog</strong><br/>
+                                        <span class=""small""/>
+                                </span>","<span class=""panel-title"">
+                                    <span class=""fa fa-check-square-o""/>
+                                    <strong>Sesuaikan katalog produk Anda</strong><br/>
+                                        <span class=""small""/>
+                                </span>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"<span class=""panel-title"">
+                                    <span class=""fa fa-check-square-o""/>
+                                    <strong>Included vs. excluded in product prices</strong><br/>
+                                        <span class=""small""/>
+                                </span>","<span class=""panel-title"">
+                                    <span class=""fa fa-check-square-o""/>
+                                    <strong>Disertakan vs. dikecualikan dalam harga produk</strong><br/>
+                                        <span class=""small""/>
+                                </span>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"<span class=""panel-title"">
+                                    <span class=""fa fa-check-square-o""/>
+                                    <strong>Origin-based vs. destination-based</strong><br/>
+                                        <span class=""small""/>                                    
+                                </span>","<span class=""panel-title"">
+                                    <span class=""fa fa-check-square-o""/>
+                                    <strong>Berbasis asal vs. berbasis tujuan</strong><br/>
+                                        <span class=""small""/>                                    
+                                </span>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"<span class=""panel-title"">
+                                <span class=""fa fa-check-square-o""/>
+                                <strong>Customize the checkout process</strong><br/>
+                                    <span class=""small""/>
+                            </span>","<span class=""panel-title"">
+                                <span class=""fa fa-check-square-o""/>
+                                <strong>Sesuaikan proses pembayaran</strong><br/>
+                                    <span class=""small""/>
+                            </span>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"<span class=""panel-title""><span class=""fa fa-cc-paypal""/><strong> Paypal</strong>
+                                    <span class=""small"">Recommended for Starters</span>
+                                    </span>","<span class=""panel-title""><span class=""fa fa-cc-paypal""/><strong> Paypal</strong>
+                                    <span class=""small"">Direkomendasikan untuk Pemula</span>
+                                    </span>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"<span class=""panel-title""><span class=""fa fa-credit-card""/><strong> Authorize.net, Ingenico, etc.</strong></span>","<span class=""panel-title""><span class=""fa fa-credit-card""/><strong> Authorize.net, Ingenico, dll.</strong></span>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"<span class=""panel-title""><span class=""fa fa-lock""/><strong>Wire transfer</strong> (slow and inefficient)</span>","<span class=""panel-title""><span class=""fa fa-lock""/><strong>Transfer rekening</strong> (lambat dan tidak efisien)</span>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"<span class=""panel-title""><span class=""fa fa-shopping-cart""/><strong>At cost price</strong> (customer pays what you pay)<br/>
+                            <span class=""small"">Advised if your packs vary in size/weight and/or if you ship worldwide</span>
+                            </span>","<span class=""panel-title""><span class=""fa fa-shopping-cart""/><strong>  Dengan harga biaya</strong> (pelanggan membayar apa yang Anda bayar)<br/>
+                            <span class=""small"">Diberitahukan jika paket Anda bervariasi dalam ukuran / berat dan / atau jika Anda mengirim ke seluruh dunia</span>
+                            </span>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"<span class=""panel-title""><span class=""fa fa-smile-o""/><strong> Free delivery</strong><br/>
+                            </span>","<span class=""panel-title""><span class=""fa fa-smile-o""/><strong> Pengiriman gratis</strong><br/>
+                            </span>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"<span class=""panel-title""><span class=""fa fa-table""/><strong> Flat rates</strong> (everybody pays the same)<br/>
+                            <span class=""small"">Advised if you target a local audience</span>
+                            </span>","<span class=""panel-title""><span class=""fa fa-table""/><strong> tarif tetap</strong> (semua orang membayar sama)<br/>
+                            <span class=""small"">Disarankan jika Anda menargetkan audiens lokal</span>
+                            </span>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.address,"<span>Next </span><span class=""fa fa-long-arrow-right""/>","<span>Lanjut </span><span class=""fa fa-long-arrow-right""/>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.sort,"<span>Sort by</span>
+                    <span class=""caret""/>","<span>Sortir dengan</span>
+                    <span class=""caret""/>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.suggested_products_list,<strong>Add to Cart</strong>,<strong>Masukkan ke keranjang</strong>,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,<strong>Bonuses:</strong> what you get on top of the offer,<strong>Bonus:</strong> apa yang Anda dapatkan di atas penawaran,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"<strong>Call-to-action</strong> short and clear: Add to Cart, Ask for quote, etc.","<strong>Call-to-action</strong> singkat dan jelas: Tambahkan ke Keranjang, Minta penawaran, etc.",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,<strong>Cons:</strong>,<strong>Kekurangan:</strong>,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,<strong>Cons:</strong> customers have to check out to find out the delivery price.,<strong>Kekurangan:</strong> pelanggan harus memeriksa untuk mengetahui harga pengiriman.,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,<strong>Cons:</strong> may be discouraging for your cheapest items,<strong>Kekurangan:</strong> mungkin mengecewakan untuk barang termurah Anda,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,<strong>Cons:</strong> will require you to either absorb the cost or slightly increase your prices to cover it.,<strong>Kekurangan:</strong> akan meminta Anda untuk menanggung biaya atau sedikit menaikkan harga untuk menutupinya. Anda akan diminta untuk menanggung biaya atau sedikit menaikkan harga untuk menutupinya.,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,<strong>Features and benefits:</strong> what the product does and why that is good,<strong>Fitur dan keuntungan:</strong> apa yang produk lakukan dan mengapa itu bagus,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"<strong>For complex imports</strong> (&gt;5000 items, product variants, pictures, etc.):","<strong>Untuk impor yang kompleks</strong> (item &gt;5000, varian produk, gambar, dll.):",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,<strong>High-quality pictures</strong>,<strong>Gambar berkualitas tinggi</strong>,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"<strong>Key features, emotional and commercial content</strong><br/>
+                            Recommended for at least your top products, because it may have a big impact on your sales and conversion rates.","<strong>Fitur utama, konten emosional dan komersial</strong><br/>
+                            Direkomendasikan untuk setidaknya produk teratas Anda, karena mungkin berdampak besar pada penjualan dan rasio konversi Anda. ",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,<strong>Mandatory content</strong><br/>,<strong>Konten wajib</strong><br/>,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,<strong>Next actions:</strong>,<strong>Tindakan berikutnya:</strong>,
+website_sale,model,"ir.ui.view,arch_db",website_sale.confirmation,<strong>Order Details:</strong>,<strong>Detail pesanan:</strong>,
+website_sale,model,"ir.ui.view,arch_db",website_sale.confirmation,<strong>Payment Method:</strong>,<strong>Cara Pembayaran:</strong>,
+website_sale,model,"ir.ui.view,arch_db",website_sale.report_shop_saleorder_document,<strong>Payment Method:</strong>,<strong>Cara Pembayaran:</strong>,
+website_sale,model,"ir.ui.view,arch_db",website_sale.confirmation,<strong>Payment information:</strong>,<strong>Informasi Pembayaran:</strong>,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,<strong>Price</strong> with currency,<strong>Harga</strong> dengan mata uang,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,<strong>Product/Service name</strong>,<strong>Nama Produk / Layanan</strong>,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,<strong>Pros:</strong>,<strong>Kelebihan:</strong>,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,<strong>Pros:</strong> being transparent about your charges can help you gain the trust of your customers.,<strong>Kelebihan:</strong> bersikap transparan tentang tagihan Anda dapat membantu Anda mendapatkan kepercayaan dari pelanggan Anda.,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,<strong>Pros:</strong> gives you a significant advantage over any competitors that don't offer the same perk.,<strong>Kelebihan:</strong> memberi Anda keuntungan yang signifikan dibandingkan pesaing yang tidak menawarkan keuntungan yang sama.,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,<strong>Pros:</strong> simple to understand,<strong>Kelebihan:</strong> mudah dimengerti,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"<strong>Reassurance arguments</strong><br/>
+                            Anticipate your customers questions &amp; worries on practical details like shipping rates &amp; policies, return &amp; replacement policies, payment methods &amp; security and your","<strong>Argumen kepastian</strong><br/>
+                            Antisipasi pertanyaan & kekhawatiran pelanggan Anda tentang detail praktis seperti kebijakan amp & tarif pengiriman, kebijakan pengembalian & penggantian amp, metode pembayaran & amp keamanan, dan ",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,<strong>See it in action in Odoo</strong><br/>,<strong>Lihat aksinya di Odoo</strong><br/>,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,<strong>Short description</strong>,<strong>Deskripsi Singkat</strong>,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,<strong>Technical information:</strong> what do you get and how does it work?,<strong>Informasi teknis:</strong> apa yang Anda dapatkan dan bagaimana cara kerjanya ?,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"<strong>Tip for B2B users:</strong> you can create new manually-processed payment methods (check, purchase order, etc.) by renaming 'Wire Transfer' or duplicating it.","<strong>Tip untuk pengguna B2B:</strong> Anda dapat membuat metode pembayaran baru yang diproses secara manual (cek, pesanan pembelian, dll.) dengan mengganti nama 'Transfer Bank' atau menggandakannya. ",
+website_sale,model,"ir.ui.view,arch_db",website_sale.confirmation,<strong>Total:</strong>,<strong>Total:</strong>,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,<strong>Value proposition:</strong> what’s the end-benefit of this product and who is it for?,<strong>Proposisi nilai:</strong> apa manfaat akhir dari produk ini dan untuk siapa ?,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,<strong>Variants</strong> like size or color,<strong>Varian</strong> seperti ukuran atau warna,
+website_sale,model,"ir.ui.view,arch_db",website_sale.terms,A <b>Governing Law</b> will inform users which laws govern the agreement. This should the country in which your company is headquartered or the country from which you operate your web site and mobile app.,A <b>Peraturan pemerintah</b> akan memberi tahu pengguna hukum mana yang mengatur perjanjian. Ini harus negara tempat perusahaan Anda berkantor pusat atau negara tempat Anda mengoperasikan situs web dan aplikasi seluler Anda.,
+website_sale,model,"ir.ui.view,arch_db",website_sale.terms,"A <b>Limit What Users Can Do</b> clause can inform users that by agreeing to use your service, they’re also agreeing to not do certain things. This can be part of a very long and thorough list in your Terms and Conditions agreements so as to encompass the most amount of negative uses.","A <b>Batasi Yang Dapat Dilakukan Pengguna</b> klausul dapat memberi tahu pengguna bahwa dengan menyetujui untuk menggunakan layanan Anda, mereka juga setuju untuk tidak melakukan hal-hal tertentu. Ini dapat menjadi bagian dari daftar yang sangat panjang dan menyeluruh dalam perjanjian Persyaratan dan Ketentuan Anda untuk mencakup penggunaan negatif terbanyak. ",
+website_sale,model,"ir.ui.view,arch_db",website_sale.terms,A <b>Links To Other Web Sites</b> clause will inform users that you are not responsible for any third party web sites that you link to. This kind of clause will generally inform users that they are responsible for reading and agreeing (or disagreeing) with the Terms and Conditions or Privacy Policies of these third parties.,A <b>Tautan ke Situs Web Lain</b> klausul akan memberi tahu pengguna bahwa Anda tidak bertanggung jawab atas situs web pihak ketiga mana pun yang Anda tautkan. Klausul semacam ini umumnya akan memberi tahu pengguna bahwa mereka bertanggung jawab untuk membaca dan menyetujui (atau tidak setuju) dengan Syarat dan Ketentuan atau Kebijakan Privasi dari pihak ketiga ini.,
+website_sale,model,"ir.ui.view,arch_db",website_sale.terms,A <b>Termination</b> clause will inform that users’ accounts on your website and mobile app or users’ access to your website and mobile (if users can’t have an account with you) can be terminated in case of abuses or at your sole discretion.,A <b>Penghentian</b> klausul akan menginformasikan bahwa akun pengguna di situs web dan aplikasi seluler Anda atau akses pengguna ke situs web dan seluler Anda (jika pengguna tidak dapat memiliki akun dengan Anda) dapat dihentikan jika terjadi penyalahgunaan atau atas kebijaksanaan Anda sendiri.,
+website_sale,model,"ir.ui.view,arch_db",website_sale.extra_info,A document to provide ?,Sebuah dokumen untuk diberikan?,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,A few % discount can bring you twice more customers! Here are a few kinds of discounts to boost your sales:,Diskon beberapa% dapat memberi Anda dua kali lebih banyak pelanggan! Berikut adalah beberapa jenis diskon untuk meningkatkan penjualan Anda :,
+website_sale,selection,"website.config.settings,sale_pricelist_setting_split_1",0,A single sales price per product,Hanya satu daftar harga tiap produk,
+website_sale,model,"ir.ui.menu,name",website_sale.menu_orders_abandonned_orders,Abandonned Orders,Pesanan yang Ditinggalkan,
+website_sale,model,"ir.actions.act_window,name",website_sale.action_abandonned_orders_ecommerce,Abandonned eCommerce Orders,Pesanan eCommerce Terbengkalai,
+website_sale,model,"ir.model.fields,help",website_sale.field_product_product_accessory_product_ids,"Accessories show up when the customer reviews the cart before paying (cross-sell strategy, e.g. for computers: mouse, keyboard, etc.). An algorithm figures out a list of accessories based on all the products added to cart.","Aksesori muncul saat pelanggan mengulas keranjang sebelum membayar (strategi jual-silang, misalnya untuk komputer: mouse, keyboard, dll.). Algoritme menghitung daftar aksesori berdasarkan semua produk yang ditambahkan ke keranjang.",
+website_sale,model,"ir.model.fields,help",website_sale.field_product_template_accessory_product_ids,"Accessories show up when the customer reviews the cart before paying (cross-sell strategy, e.g. for computers: mouse, keyboard, etc.). An algorithm figures out a list of accessories based on all the products added to cart.","Aksesori muncul saat pelanggan mengulas keranjang sebelum membayar (strategi jual-silang, misalnya untuk komputer: mouse, keyboard, dll.). Algoritme menghitung daftar aksesori berdasarkan semua produk yang ditambahkan ke keranjang.",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"Accessories: screen, mouse","Accessories: screen, mouse",
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_product_accessory_product_ids,Accessory Products,Produk aksesori,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_template_accessory_product_ids,Accessory Products,Produk aksesori,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_website_config_settings_module_portal,Activate the customer portal,Aktifkan portal pelanggan,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_website_config_settings_module_website_sale_delivery,Add Delivery Costs to Online Sales,Tambahkan Ongkos Kirim ke Penjualan Daring,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"Add a step to request some extra customer data (picking preferences, etc.)","Tambahkan langkah untuk meminta beberapa data pelanggan tambahan (memilih preferensi, dll.)",
+website_sale,model,"ir.ui.view,arch_db",website_sale.product,Add to Cart,Tambah ke Troli,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Add to Cart button,Tambahkan ke tombol Troli,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Address,Alamat,
+website_sale,model,"ir.model.fields,help",website_sale.field_product_product_availability,Adds an availability status on the web product page.,Menambahkan status ketersediaan pada halaman produk web.,
+website_sale,model,"ir.model.fields,help",website_sale.field_product_template_availability,Adds an availability status on the web product page.,Menambahkan status ketersediaan pada halaman produk web.,
+website_sale,selection,"website.config.settings,sale_pricelist_setting_split_2",0,"Advanced pricing based on formulas (discounts, margins, rounding)","Penetapan harga lanjutan berdasarkan rumus (diskon, margin, pembulatan)",
+website_sale,model,"ir.ui.view,arch_db",website_sale.option_collapse_products_categories,All Products,Semua Produk,
+website_sale,model,"ir.ui.view,arch_db",website_sale.products_categories,All Products,Semua Produk,
+website_sale,model,"ir.model.fields,help",website_sale.field_product_pricelist_selectable,Allow the end user to choose this price list,Izinkan pengguna akhir untuk memilih daftar harga ini,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_sale_pricelist_form_view,Allow to use on,Izinkan untuk digunakan pada,
+website_sale,model,"ir.model.fields,help",website_sale.field_website_config_settings_group_sale_pricelist,"Memungkinkan untuk mengelola harga yang berbeda berdasarkan aturan per kategori pelanggan.
+                Example: 10% for retailers, promotion of 5 EUR on this product, etc.","Ijinkan mengelola daftar harga yang berbeda-beda tiap kategori pelanggan.
+Contoh: 10% untuk toko, promo 5 EUR untuk produk ini, dll.",
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_product_alternative_product_ids,Alternative Products,Produk alternatif,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_template_alternative_product_ids,Alternative Products,Produk alternatif,
+website_sale,model,"ir.ui.view,arch_db",website_sale.recommended_products,Alternative Products:,Produk alternatif:,
+website_sale,code,addons/website_sale/static/src/xml/website_sale_dashboard.xml,31,Amount,Jumlah,openerp-web
+website_sale,model,"ir.ui.view,arch_db",website_sale.reduction_code,Apply,Terapkan,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Apply multi-currencies,Menerapkan multi mata uang,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_product_availability,Availability,Ketersediaan,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_template_availability,Availability,Ketersediaan,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_product_availability_warning,Availability Warning,Peringatan Ketersediaan,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_template_availability_warning,Availability Warning,Peringatan Ketersediaan,
+website_sale,model,"website.menu,name",website_sale.menu_shop,Beranda,Beranda,
+website_sale,code,addons/website_sale/static/src/xml/website_sale_dashboard.xml,21,Best Sellers,Penjualan terbaik,openerp-web
+website_sale,model,"ir.ui.view,arch_db",website_sale.bill_to,Bill To:,Pembayaran kepada:,
+website_sale,model,"ir.ui.view,arch_db",website_sale.checkout,Billing Address,Alamat tagihan,
+website_sale,model,"ir.ui.view,arch_db",website_sale.wizard_checkout,"Billing<span class=""chevron""/>","Penagihan<span class=""chevron""/>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Can take up to several days to receive the money,Bisa memakan waktu hingga beberapa hari untuk menerima uang,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_sale_order_cart_quantity,Cart Quantity,Keranjang Quantity,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Cash amount or percentage discounts,Jumlah uang tunai atau persentase diskon,
+website_sale,model,"ir.ui.menu,name",website_sale.menu_catalog,Catalog,Katalog,
+website_sale,model,"ir.ui.view,arch_db",website_sale.sort,Catalog price: decreasing order,Harga katalog: pesanan menurun,
+website_sale,model,"ir.ui.view,arch_db",website_sale.sort,Catalog price: increasing order,Harga katalog: pesanan meningkat,
+website_sale,model,"ir.actions.act_window,help",website_sale.product_public_category_action,"Categories are used to browse your products through the
+            touchscreen interface.","Kategori digunakan untuk menjelajahi produk Anda melalui
+            antarmuka layar sentuh. ",
+website_sale,model,"ir.model.fields,help",website_sale.field_product_product_public_categ_ids,"Categories can be published on the Shop page (online catalog grid) to help customers find all the items within a category. To publish them, go to the Shop page, hit Customize and turn *Product Categories* on. A product can belong to several categories.","Kategori dapat dipublikasikan di halaman Toko (kisi katalog online) untuk membantu pelanggan menemukan semua item dalam kategori. Untuk mempublikasikannya, buka halaman Toko, tekan Kustomisasi dan aktifkan * Kategori Produk *. Sebuah produk dapat termasuk dalam beberapa kategori. ",
+website_sale,model,"ir.model.fields,help",website_sale.field_product_template_public_categ_ids,"Categories can be published on the Shop page (online catalog grid) to help customers find all the items within a category. To publish them, go to the Shop page, hit Customize and turn *Product Categories* on. A product can belong to several categories.","Kategori dapat dipublikasikan di halaman Toko (kisi katalog online) untuk membantu pelanggan menemukan semua item dalam kategori. Untuk mempublikasikannya, buka halaman Toko, tekan Kustomisasi dan aktifkan * Kategori Produk *. Sebuah produk dapat termasuk dalam beberapa kategori. ",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Change,Ubah,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_public_category_child_id,Children Categories,Kategori anak,
+website_sale,code,addons/website_sale/static/src/js/website_sale_tour_shop.js,37,Choose an image from the library.,Pilih gambar dari perpustakaan.,openerp-web
+website_sale,model,"ir.ui.view,arch_db",website_sale.address,City,Kota,
+website_sale,model,"ir.ui.view,arch_db",website_sale.products,Click <i>'New'</i> in the top-right corner to create your first product.,Klik <i>'Baru'</i> di pojok kanan atas untuk membuat produk pertama Anda.,
+website_sale,code,addons/website_sale/static/src/js/website_sale_tour_shop.js,33,Click here to set an image describing your product.,Klik di sini untuk mengatur gambar yang menjelaskan produk Anda.,openerp-web
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Click here to unfold a Good Product Page,Klik di sini untuk membuka Halaman Produk yang Baik,
+website_sale,code,addons/website_sale/static/src/js/website_sale_tour_shop.js,42,Click on <b>Save</b> to add the image to the product description.,Klik <b>Simpan</b> untuk menambahkan gambar ke deskripsi produk.,openerp-web
+website_sale,code,addons/website_sale/static/src/js/website_sale_tour_shop.js,23,Click on <em>Continue</em> to create the product.,Klik <em>Lanjut</em> untuk membuat produk.,openerp-web
+website_sale,code,addons/website_sale/static/src/js/website_sale_tour_shop.js,57,Click on this button so your customers can see it.,Klik tombol ini agar pelanggan Anda dapat melihatnya.,openerp-web
+website_sale,model,"ir.actions.act_window,help",website_sale.product_public_category_action,Click to define a new category.,Klik untuk mendefinisikan kategori baru.,
+website_sale,selection,"product.attribute,type",0,Color,Warna,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Community &amp; Enterprise users:,Pengguna Komunitas &amp; Enterprise:,
+website_sale,model,"ir.ui.view,arch_db",website_sale.address,Company Name,Nama Perusahaan,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"Configure your delivery methods (pricing, destinations)","Konfigurasi metode pengiriman Anda (harga, tujuan)",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Configure your pricelists,Konfigurasi daftar harga Anda,
+website_sale,model,"ir.ui.view,arch_db",website_sale.payment_token_form_confirm,Confirm,Konfirmasi,
+website_sale,model,"ir.ui.view,arch_db",website_sale.checkout,"Confirm <span class=""fa fa-long-arrow-right""/>","Konfirmasi <span class=""fa fa-long-arrow-right""/>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.payment,Confirm Order,konfirmasi Order,
+website_sale,model,"ir.ui.view,arch_db",website_sale.payment,"Confirm Order <span class=""fa fa-long-arrow-right""/>","Konfirmasi pemesanan <span class=""fa fa-long-arrow-right""/>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.wizard_checkout,"Confirmation<span class=""chevron""/>","Konfirmasi<span class=""chevron""/>",
+website_sale,model,"ir.model,name",website_sale.model_res_country,Country,Negara,
+website_sale,model,"ir.ui.view,arch_db",website_sale.address,Country,Negara,
+website_sale,model,"ir.ui.view,arch_db",website_sale.address,Country...,Negara,
+website_sale,model,"ir.ui.view,arch_db",website_sale.reduction_code,Coupon Code,Kode kupon,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Create tax mapping for foreign customers,Buat pemetaan pajak untuk pelanggan asing,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Create your product items,Buat produk Anda,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_image_create_uid,Created by,Dibuat oleh,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_public_category_create_uid,Created by,Dibuat oleh,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_style_create_uid,Created by,Dibuat oleh,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_image_create_date,Created on,Dibuat pada,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_public_category_create_date,Created on,Dibuat pada,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_style_create_date,Created on,Dibuat pada,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Currencies,Mata Uang,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Customer Segments,Segmen pelanggan,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Customers review:,Ulasan pelanggan:,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_website_config_settings_module_delivery_dhl,DHL integration,DHL integrasi,
+website_sale,model,"ir.ui.view,arch_db",website_sale.products,Dapatkan diskon sekarang juga dengan berbelanja di Isi Kulkasku.,Dapatkan diskon sekarang juga dengan berbelanja di Isi Kulkasku.,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_website_currency_id,Default Currency,Mata Uang bawaan,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_website_pricelist_id,Default Pricelist,Bawaan Pricelist,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_config_settings_view_form,Default Sales Team,Tim Penjualan bawaan,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_config_settings_view_form,Default Salesperson,Penjual Standar,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Default mode,Mode default,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Delivery Strategy,Strategi Pengiriman,
+website_sale,selection,"website.config.settings,sale_delivery_settings",0,Delivery methods are only used internally: the customer doesn't pay for shipping costs,Metode pengiriman hanya digunakan secara internal: pelanggan tidak membayar biaya pengiriman,
+website_sale,selection,"website.config.settings,sale_delivery_settings",0,Delivery methods are selectable on the website: the customer pays for shipping costs,Metode pengiriman dapat dipilih di situs web: pelanggan membayar biaya pengiriman,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"Depending on your state or country, you are required to collect sales taxes with either the rate at buyer’s address (destination-based) or the rate effective at your office or warehouse's address (origin-based).","Bergantung pada negara bagian atau negara Anda, Anda diwajibkan untuk memungut pajak penjualan dengan tarif di alamat pembeli (berbasis tujuan) atau tarif yang berlaku di kantor atau alamat gudang Anda (berbasis asal).",
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_product_website_description,Description for the website,Deskripsi untuk website,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_template_website_description,Description for the website,Deskripsi untuk website,
+website_sale,model,"ir.model.fields,help",website_sale.field_product_product_website_sequence,Determine the display order in the Website E-commerce,Menentukan urutan tampilan di website E-commerce,
+website_sale,model,"ir.model.fields,help",website_sale.field_product_template_website_sequence,Determine the display order in the Website E-commerce,Menentukan urutan tampilan di website E-commerce,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"Discount % or amounts, margins, roundings, periods, etc.","Diskon% atau jumlah, margin, pembulatan, periode, dll.",
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_image_display_name,Display Name,Nama Tampilan,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_public_category_display_name,Display Name,Nama Tampilan,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_style_display_name,Display Name,Nama Tampilan,
+website_sale,selection,"product.template,availability",0,Display Nothing,Tidak Menampilkan apa-apa,
+website_sale,code,addons/website_sale/static/src/js/website_sale_tour_shop.js,47,Drag this website block and drop it in your page.,Seret blok situs web ini dan letakkan di halaman Anda.,openerp-web
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_pricelist_code,E-commerce Promotional Code,Kode Promosi E-commerce,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Ease the product browsing with:,Kemudahan penelusuran produk dengan :,
+website_sale,code,addons/website_sale/static/src/js/website_sale_tour_shop.js,27,Edit the price of this product by clicking on the amount.,Mengedit harga produk ini dengan mengklik jumlahnya.,openerp-web
+website_sale,model,"ir.ui.view,arch_db",website_sale.address_kanban,Edit this address,Edit alamat ini,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Edit your payment policies and security to reassure your visitors,Edit kebijakan pembayaran dan keamanan Anda untuk meyakinkan pengunjung Anda,
+website_sale,model,"ir.ui.view,arch_db",website_sale.address,Email,E-mail,
+website_sale,model,"ir.model.fields,help",website_sale.field_website_config_settings_order_mail_template,Email sent to customer at the end of the checkout process,Email dikirim ke pelanggan di akhir proses pembayaran,
+website_sale,code,addons/website_sale/static/src/js/website_sale_tour_shop.js,19,Enter a name for your new product,Masukkan nama untuk produk baru Anda,openerp-web
+website_sale,code,addons/website_sale/models/product.py,90,Error ! You cannot create recursive categories.,"Kesalahan
+Anda tidak bisa membuat template akun secara rekursif",
+website_sale,model,"ir.ui.view,arch_db",website_sale.extra_info_option,"Extra Info<span class=""chevron""/>","Info Tambahan <span class=""chevron""/>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.extra_info,Extra Step,Langkah Ekstra,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_website_config_settings_module_delivery_fedex,Fedex integration,FedEx integrasi,
+website_sale,model,"ir.model,name",website_sale.model_ir_model_fields,Fields,Fields,
+website_sale,code,addons/website_sale/static/src/js/website_sale_tour_shop.js,62,Follow the steps and advices in the Odoo Planner to deploy your e-Commerce website in no time!,Ikuti langkah-langkah dan saran di Odoo Planner untuk menyebarkan situs web e-Commerce Anda dalam waktu singkat !,openerp-web
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Free and no setup,Gratis dan tanpa penyiapan,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Free delivery (see Delivery Strategy section),Pengiriman gratis (lihat bagian Strategi Pengiriman),
+website_sale,model,"ir.ui.view,arch_db",website_sale.view_sales_order_filter_ecommerce,From Website,Dari Website,
+website_sale,model,"ir.ui.view,arch_db",website_sale.extra_info,Give us your feedback...,Beri kami tanggapan Anda ...,
+website_sale,model,"ir.model.fields,help",website_sale.field_website_config_settings_module_portal,Give your customers access to their documents.,Mengizikan pelanggan akses ke dokomennya,
+website_sale,model,"ir.model.fields,help",website_sale.field_product_public_category_sequence,Gives the sequence order when displaying a list of product categories.,Memberikan perintah urutan ketika menampilkan daftar kategori produk.,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Go through the checkout process and make sure every single step is tailored to your activity:,Lakukan proses pembayaran dan pastikan setiap langkah disesuaikan dengan aktivitas Anda :,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_style_html_class,HTML Classes,Kelas HTML,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_attribute_value_html_color,HTML Color Index,Indeks warna,
+website_sale,model,"ir.model,name",website_sale.model_ir_http,HTTP routing,Perutean HTTP,
+website_sale,model,"ir.ui.view,arch_db",website_sale.reduction_code,Have a coupon code? Fill in this field and apply.,Memiliki kode kupon? Isi bidang ini dan menerapkan.,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Here are <strong>some pros and cons</strong> to help you decide:<br/>,Di sini adalah <strong>beberapa pro dan kontra</strong> untuk membantu Anda memutuskan:<br/>,
+website_sale,model,"ir.model.fields,help",website_sale.field_product_attribute_value_html_color,Here you can set a specific HTML color index (e.g. #ff0000) to display the color on the website if the attibute type is 'Color'.,Di sini Anda dapat mengatur indeks warna HTML tertentu (misalnya # ff0000) untuk menampilkan warna pada website jika jenis attibute adalah 'Color'.,
+website_sale,selection,"product.attribute,type",0,Hidden,tersembunyi,
+website_sale,model,"ir.ui.view,arch_db",website_sale.payment_sale_note,I agree to the,Saya setuju dengan,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_image_id,ID,ID,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_public_category_id,ID,ID,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_style_id,ID,ID,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"If you deal with a major shipper (UPS, FedEx, DHL, etc.), activate the related connector in Odoo to compute accurate costs and print labels.","Jika Anda berurusan dengan pengirim besar (UPS, FedEx, DHL, dll.), Aktifkan konektor terkait di Odoo untuk menghitung biaya yang akurat dan label cetak.",
+website_sale,model,"ir.ui.view,arch_db",website_sale.terms,"If your website or mobile apps allows users to create content and make that content public to other users, a <b>Content</b> section will inform users that they own the rights to the content they have created.<br/>The “Content” clause usually mentions that users must give you (the website or mobile app developer) a license so that you can share this content on your website/mobile app and to make it available to other users.<br/>Because the content created by users is public to other users, a DMCA notice clause (or Copyright Infringement ) section is helpful to inform users and copyright authors that, if any content is found to be a copyright infringement, you will respond to any DMCA take down notices received and you will take down the content.","Jika situs web atau aplikasi seluler Anda memungkinkan pengguna membuat konten dan menjadikan konten tersebut publik bagi pengguna lain<b>Content</b> bagian ini akan memberi tahu pengguna bahwa mereka memiliki hak atas konten yang mereka buat.<br/>Klausul Konten biasanya menyebutkan bahwa pengguna harus memberi Anda (situs web atau pengembang aplikasi seluler) lisensi sehingga Anda dapat membagikan konten ini di situs web / aplikasi seluler Anda dan membuatnya tersedia untuk pengguna lain.<br/>Karena konten yang dibuat oleh pengguna bersifat publik bagi pengguna lain, bagian klausul pemberitahuan DMCA (atau Pelanggaran Hak Cipta) berguna untuk memberi tahu pengguna dan penulis hak cipta bahwa, jika ada konten yang ditemukan sebagai pelanggaran hak cipta, Anda akan menanggapi setiap pengambilan DMCA pemberitahuan yang diterima dan Anda akan menghapus isinya. ",
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_image_image,Image,Gambar,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_public_category_image,Image,Gambar,
+website_sale,model,"ir.ui.view,arch_db",website_sale.view_product_image_form,Image Name,Nama Gambar,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_product_product_image_ids,Images,Gambar,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_template_product_image_ids,Images,Gambar,
+website_sale,model,"ir.ui.view,arch_db",website_sale.product_template_form_view,Images,Gambar,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"Imagine a new customer adds a product to cart and leaves your website because of shipping costs... Defining a good delivery strategy is difficult. You don't want to cut into your margins, but you want to remain price-competitive.","Bayangkan pelanggan baru menambahkan produk ke keranjang dan meninggalkan situs Anda karena biaya pengiriman ... Sulit untuk menentukan strategi penyampaian yang baik. Anda tidak ingin memotong margin Anda, tetapi Anda ingin tetap kompetitif dalam harga.",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"In North America, prices are shown tax-excluded whatever your business is (default mode in Odoo). In most other countries, only B2B prices are tax-exluded; B2C prices being tax-included.","Di Amerika Utara, harga ditampilkan tidak termasuk pajak, apapun bisnis Anda (mode default di Odoo). Di sebagian besar negara lain, hanya harga B2B yang tidak termasuk pajak; Harga B2C termasuk pajak.",
+website_sale,selection,"product.template,availability",0,In Stock,Persediaan,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,In destination-based states:,Di negara bagian berdasarkan tujuan:,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Install Optional Products (cross-selling),Instal Produk Opsional (cross-selling),
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Install shipping connectors,Pasang konektor pengiriman,
+website_sale,model,"ir.model.fields,help",website_sale.field_website_config_settings_module_website_sale_options,Installs *e-Commerce Optional Products*,Instal * Produk Opsional e-Commerce *,
+website_sale,code,addons/website_sale/controllers/main.py,490,Invalid Email! Please enter a valid email address.,Email tidak valid! Silakan isi alamat email.,
+website_sale,model,"ir.actions.act_window,name",website_sale.action_invoices_ecommerce,Invoices,tagihans,
+website_sale,model,"ir.ui.menu,name",website_sale.menu_orders_invoices,Invoices,tagihans,
+website_sale,model,"ir.ui.view,arch_db",website_sale.products,Isi Kulkasku merupakan sebuah website ecommerce yang memudahkan Anda dalam melakukan transaksi secara online.,Isi Kulkasku merupakan sebuah website ecommerce yang memudahkan Anda dalam melakukan transaksi secara online.,
+website_sale,code,addons/website_sale/models/sale_order.py,131,It is forbidden to modify a sale order which is not in draft status,Dilarang mengubah pesanan penjualan yang tidak berstatus draf,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"It's difficult to recommend one over the others. So, simply pick the one that is more popular in your country!","Sulit untuk merekomendasikan salah satu dari yang lain. Jadi, pilih saja salah satu yang lebih populer di negara Anda!",
+website_sale,model,"ir.ui.view,arch_db",website_sale.products,Kami Hadir untuk Berbagi,Kami Hadir untuk Berbagi,
+website_sale,model,"ir.ui.view,arch_db",website_sale.products,Kontak kami,Kontak kami,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_image___last_update,Last Modified on,Terakhir diubah pada,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_public_category___last_update,Last Modified on,Terakhir diubah pada,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_style___last_update,Last Modified on,Terakhir diubah pada,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_res_partner_last_website_so_id,Last Online Sale Order,Penjualan Online Terakhir,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_res_users_last_website_so_id,Last Online Sale Order,Penjualan Online Terakhir,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_image_write_uid,Last Updated by,Terakhir diperbarui oleh,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_public_category_write_uid,Last Updated by,Terakhir diperbarui oleh,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_style_write_uid,Last Updated by,Terakhir diperbarui oleh,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_image_write_date,Last Updated on,Terakhir Diperbaharui pada,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_public_category_write_date,Last Updated on,Terakhir Diperbaharui pada,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_style_write_date,Last Updated on,Terakhir Diperbaharui pada,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Legal Name,Nama hukum,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Let them buy straight from catalog with:,Biarkan mereka membeli langsung dari katalog dengan:,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,List displaying,Menampilkan daftar,
+website_sale,model,"ir.ui.view,arch_db",website_sale.address,Log In,Log In,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Logo,Logo,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Main Currency,Mata uang utama,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"Make sure your customers can go through the shopping process in a very short time, otherwise they will leave your website. Here are some actions to tailor the process to your business.","Pastikan pelanggan Anda dapat melalui proses belanja dalam waktu yang sangat singkat, jika tidak mereka akan meninggalkan situs web Anda. Berikut beberapa tindakan untuk menyesuaikan proses dengan bisnis Anda.",
+website_sale,model,"ir.model.fields,field_description",website_sale.field_website_config_settings_module_delivery,Manage shipping internally,Kelola pengiriman secara internal,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_public_category_image_medium,Medium-sized image,Image menengah,
+website_sale,model,"ir.model.fields,help",website_sale.field_product_public_category_image_medium,"Medium-sized image of the category. It is automatically resized as a 128x128px image, with aspect ratio preserved. Use this field in form views or some kanban views.","Image menengah kategori. Hal ini secara otomatis diubah ukurannya sebagai gambar 128x128px, dengan rasio aspek diawetkan. Gunakan bidang ini dalam pandangan bentuk atau beberapa pandangan kanban.",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_config_settings_view_form,Merchant Connectors,Konektor Pedagang,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Min. qty or period,Min. qty or period,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_config_settings_view_form,More Info,Info lebih lanjut,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_website_config_settings_group_website_multiimage,Multi Images,Multi Gambar,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Multi-buy offers (2 products sold together for less than their individual price),Penawaran multi-beli (2 produk dijual bersama dengan harga kurang dari harga individualnya),
+website_sale,code,addons/website_sale/static/src/js/website_sale.js,15,My Cart,Troli saya,openerp-web
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_image_name,Name,Nama,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_public_category_name,Name,Nama,
+website_sale,model,"ir.ui.view,arch_db",website_sale.address,Name,Nama,
+website_sale,model,"ir.ui.view,arch_db",website_sale.sort,Name,Nama,
+website_sale,code,addons/website_sale/controllers/main.py,998,New Product,TAMBAH PRODUK BARU,
+website_sale,code,addons/website_sale/static/src/js/website_sale.editor.js,18,New Product,Produk baru,openerp-web
+website_sale,model,"ir.ui.view,arch_db",website_sale.content_new_product,New Product,TAMBAH PRODUK BARU,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,No monthly fees for standard offer,Tidak ada biaya bulanan untuk penawaran standar,
+website_sale,model,"ir.ui.view,arch_db",website_sale.products,No product defined.,Tidak ada produk didefinisikan.,
+website_sale,selection,"website.config.settings,sale_delivery_settings",0,No shipping management on website,Tidak ada manajemen pengiriman di situs web,
+website_sale,model,"ir.ui.view,arch_db",website_sale.payment_token_form_confirm,"No, choose another method","Tidak, pilih metode lain",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_sale_pricelist_form_view,None website,Tidak ada situs web,
+website_sale,code,addons/website_sale/static/src/xml/website_sale.xml,12,OK,OK,openerp-web
+website_sale,code,addons/website_sale/static/src/js/website_sale_tour_shop.js,52,"Once you click on <b>Save</b>, your product is updated.","Setelah Anda mengklik <b>Simpan</b>, produk Anda diperbarui.",openerp-web
+website_sale,selection,"website.config.settings,group_website_multiimage",0,One image per product,Satu gambar per produk,
+website_sale,selection,"website.config.settings,module_website_sale_options",0,"One-step ""add to cart""","Satu langkah ""Masukkan ke keranjang""",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Online users: we do it for you!,Pengguna online: kami melakukannya untuk Anda!,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_sale_order_only_services,Only Services,Hanya Layanan,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_website_config_settings_module_website_sale_options,Optional Products,Pilihan produk,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"Options: warranty, software","Pilihan: garansi, perangkat lunak",
+website_sale,model,"ir.ui.view,arch_db",website_sale.confirmation,Order,Pesanan,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_website_config_settings_order_mail_template,Order Confirmation Email,Email Konfirmasi Pesanan,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_sale_order_website_order_line,Order Lines displayed on Website,Agar Garis ditampilkan di Website,
+website_sale,model,"ir.model.fields,help",website_sale.field_sale_order_website_order_line,Order Lines to be displayed on the website. They should not be used for computation purpose.,Agar Garis yang akan ditampilkan di website. Mereka tidak boleh digunakan untuk tujuan perhitungan.,
+website_sale,model,"ir.ui.menu,name",website_sale.menu_orders,Orders,Pesanan,
+website_sale,model,"ir.ui.menu,name",website_sale.menu_orders_orders,Orders,Pesanan,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_public_category_parent_id,Parent Category,Induk Kategori,
+website_sale,model,"ir.model,name",website_sale.model_res_partner,Partner,Rekanan,
+website_sale,code,addons/website_sale/controllers/main.py,749,Pay Now,Bayar sekarang,
+website_sale,code,addons/website_sale/controllers/main.py,865,Pay Now,Bayar sekarang,
+website_sale,model,"ir.ui.view,arch_db",website_sale.payment,"Pay Now <span class=""fa fa-long-arrow-right""/>","Bayar sekarang <span class=""fa fa-long-arrow-right""/>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.payment_token_form_confirm,Payment,Pembayaran,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_sale_order_payment_acquirer_id,Payment Acquirer,Acquirer pembayaran,
+website_sale,model,"ir.ui.menu,name",website_sale.menu_ecommerce_payment_acquirers,Payment Acquirers,Pembayaran Acquirers,
+website_sale,model,"ir.ui.view,arch_db",website_sale.report_shop_saleorder_document,Payment Information,Informasi Pembayaran,
+website_sale,model,"ir.ui.view,arch_db",website_sale.payment,Payment Method:,Metode Pembayaran,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Payment Methods,Metode Pembayaran,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Payment must be reconciled manually,Pembayaran harus direkonsiliasi secara manual,
+website_sale,code,addons/website_sale/controllers/main.py,789,Payment transaction (%s) failed : <%s>,Transaksi pembayaran (%s) gagal : <%s>,
+website_sale,code,addons/website_sale/controllers/main.py,783,Payment transaction failed (%s),Transaksi pembayaran gagal (%s),
+website_sale,code,addons/website_sale/controllers/main.py,790,Payment transaction failed (Contact Administrator),Transaksi pembayaran gagal (Hubungi Administrator),
+website_sale,model,"ir.ui.view,arch_db",website_sale.extra_info_option,"Payment<span class=""chevron""/>","pembayaran<span class=""chevron""/>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.wizard_checkout,"Payment<span class=""chevron""/>","pembayaran<span class=""chevron""/>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.address,Phone,Telepon,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Pictures gallery:,Galeri gambar:,
+website_sale,model,"ir.ui.view,arch_db",website_sale.cart,Policies,Kebijakan,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Populate Your Catalog,Isi Katalog Anda,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Prefered by some customers,Disukai oleh beberapa pelanggan,
+website_sale,code,addons/website_sale/controllers/backend.py,61,Previous Sales,Penjualan Sebelumnya,
+website_sale,model,"ir.ui.view,arch_db",website_sale.cart_lines,Price,Harga,
+website_sale,model,"ir.ui.view,arch_db",website_sale.payment,Price,Harga,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_website_pricelist_ids,Price list available for this Ecommerce/Website,Daftar harga tersedia untuk Ecommerce / Situs Web ini,
+website_sale,model,"ir.model,name",website_sale.model_product_pricelist,Pricelist,Harga,
+website_sale,model,"ir.actions.act_window,name",website_sale.website_product_pricelist3,Pricelists,Daftar harga,
+website_sale,model,"ir.ui.menu,name",website_sale.menu_catalog_pricelists,Pricelists,Daftar harga,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Pricing &amp; Discounts,Harga &amp; Diskon,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_website_config_settings_sale_pricelist_setting_split_1,Pricing Strategy,Strategi Penetapan Harga,
+website_sale,code,addons/website_sale/static/src/xml/website_sale_dashboard.xml,29,Product,Produk,openerp-web
+website_sale,model,"ir.model,name",website_sale.model_product_product,Product,Produk,
+website_sale,model,"ir.ui.view,arch_db",website_sale.cart_lines,Product,Produk,
+website_sale,model,"ir.ui.view,arch_db",website_sale.payment,Product,Produk,
+website_sale,model,"ir.model,name",website_sale.model_product_attribute,Product Attribute,Atribut produk,
+website_sale,model,"ir.ui.view,arch_db",website_sale.product_template_form_view,Product Images,Gambar Produk,
+website_sale,model,"ir.ui.view,arch_db",website_sale.view_product_image_form,Product Images,Gambar Produk,
+website_sale,model,"ir.ui.view,arch_db",website_sale.product,Product Name,Nama Produk,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Product Pages,Halaman Produk,
+website_sale,model,"ir.ui.view,arch_db",website_sale.product_public_category_tree_view,Product Public Categories,Kategori Publik Produk,
+website_sale,model,"ir.model,name",website_sale.model_product_template,Product Template,Templete produk,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Product attributes filter,Filter atribut produk,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Product categories list,Daftar kategori produk,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Product descriptions,Deskripsi Produk,
+website_sale,model,"ir.ui.view,arch_db",website_sale.product,Product not available,Produk tidak tersedia,
+website_sale,model,"ir.ui.view,arch_db",website_sale.product_price,Product not available,Produk tidak tersedia,
+website_sale,model,"ir.ui.view,arch_db",website_sale.404,Product not found!,Produk tidak ditemukan!,
+website_sale,model,"ir.actions.act_window,name",website_sale.product_template_action,Products,Produk,
+website_sale,model,"ir.ui.menu,name",website_sale.menu_catalog_products,Products,Produk,
+website_sale,model,"ir.ui.view,arch_db",website_sale.confirmation,Products,Produk,
+website_sale,model,"ir.ui.view,arch_db",website_sale.product,Products,Produk,
+website_sale,model,"ir.ui.view,arch_db",website_sale.products_item,Promo,Promo,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_sale,Promote,Mendorong,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_rating_rating_website_published,Published,Terpublikasi,
+website_sale,model,"ir.ui.view,arch_db",website_sale.product_template_search_view_website,Published,Terpublikasi,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_sale,Push down,Menekan,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_sale,Push to bottom,Mendorong ke bawah,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_sale,Push to top,Mendorong ke atas,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_sale,Push up,Push-up,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"Put the practical details (shipping, payment methods, etc.) as links in the footer; That way, they will be accessible 
+                            all your product pages.","Letakkan detail praktis (pengiriman, metode pembayaran, dll.) Sebagai tautan di footer; Dengan begitu, mereka dapat diakses 
+                            semua halaman produk Anda.",
+website_sale,code,addons/website_sale/static/src/xml/website_sale_dashboard.xml,30,Qty Sold,Jumlah Terjual,openerp-web
+website_sale,model,"ir.ui.view,arch_db",website_sale.cart_popover,Qty:,Jumlah:,
+website_sale,model,"ir.ui.view,arch_db",website_sale.cart_lines,Quantity,Jumlah,
+website_sale,model,"ir.ui.view,arch_db",website_sale.confirmation,Quantity,Jumlah,
+website_sale,model,"ir.ui.view,arch_db",website_sale.payment,Quantity,Jumlah,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Quantity-based discounts (B2B),Diskon berbasis kuantitas (B2B),
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Quick and easy to set up,Cepat dan mudah disiapkan,
+website_sale,selection,"product.attribute,type",0,Radio,Radio,
+website_sale,model,"ir.model,name",website_sale.model_rating_rating,Rating,Peringkat,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_product_rating_ids,Rating,Peringkat,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_product_rating_last_value,Rating Last Value,Peringkat Nilai Terakhir,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_product_rating_count,Rating count,Hitungan peringkat,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_image_product_tmpl_id,Related Product,Produk Terkait,
+website_sale,model,"ir.ui.view,arch_db",website_sale.404,Return to the product list.,Kembali ke daftar produk.,
+website_sale,model,"ir.ui.view,arch_db",website_sale.wizard_checkout,"Review Order<span class=""chevron""/>","Tinjau Pesanan<span class=""chevron""/>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Review your catalog,Tinjau katalog Anda,
+website_sale,code,addons/website_sale/controllers/backend.py,57,Sales,Penjualan,
+website_sale,code,addons/website_sale/static/src/xml/website_sale_dashboard.xml,9,Sales /,Penjualan /,openerp-web
+website_sale,model,"ir.model,name",website_sale.model_sale_order,Sales Order,Order Penjualan,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_website_config_settings_sale_pricelist_setting_split_2,Sales Price,Harga Jual,
+website_sale,model,"ir.model,name",website_sale.model_crm_team,Sales Team,Tim Penjualan,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_website_config_settings_salesteam_id,Sales Team,Tim Penjualan,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_website_salesteam_id,Sales Team,Tim Penjualan,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_website_config_settings_salesperson_id,Salesperson,Penjual,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_website_salesperson_id,Salesperson,Penjual,
+website_sale,model,"ir.ui.view,arch_db",website_sale.payment,Save my payment data,Simpan data pembayaran saya,
+website_sale,model,"ir.ui.view,arch_db",website_sale.cart,Secure Payment,Pembayaran aman,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,See how to configure delivery methods and shipping connectors,Lihat cara mengonfigurasi metode pengiriman dan konektor pengiriman,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,See how to configure payment methods,Lihat cara mengonfigurasi metode pembayaran,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,See how to configure pricing &amp; discounts,See how to configure pricing &amp; discounts,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,See how to customize your catalog page,Lihat cara menyesuaikan halaman katalog Anda,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,See how to do it,Lihat bagaimana melakukannya,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,See how to set tax-included prices,Lihat cara menyetel harga termasuk pajak,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,See which tax rate applies in your city,Lihat tarif pajak mana yang berlaku di kota Anda,
+website_sale,model,"ir.ui.view,arch_db",website_sale.products,Selamat datang di Isi Kulkasku,Selamat datang di Isi Kulkasku,
+website_sale,selection,"product.attribute,type",0,Select,Pilih,
+website_sale,code,addons/website_sale/static/src/js/website_sale_tour_shop.js,15,Select <b>New Product</b> to create it and manage its properties to boost your sales.,Pilih <b>Produk baru</b> untuk membuatnya dan mengelola propertinya untuk meningkatkan penjualan Anda.,openerp-web
+website_sale,model,"ir.ui.view,arch_db",website_sale.address_kanban,Select this address,Pilih alamat ini,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Select your pricing preference and allow discounts,Pilih preferensi harga Anda dan ijinkan diskon,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Select your shipping management policy,Pilih kebijakan manajemen pengiriman Anda,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_pricelist_selectable,Selectable,Dapat dipilih,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Sell,Menjual,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Sell More,Jual Lebih Banyak,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_public_category_sequence,Sequence,Urutan,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"Set alternatives, accessories and options in product detail form (in Sales tab)","Atur alternatif, aksesoris dan pilihan dalam bentuk detail produk (di tab Sales)",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Set default taxes,Tetapkan pajak default,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"Set this rate as 
+                                            default tax","Tetapkan tarif ini sebagai 
+                                            pajak default",
+website_sale,selection,"website.config.settings,group_website_multiimage",0,Several images per product,Beberapa gambar per produk,
+website_sale,selection,"website.config.settings,sale_pricelist_setting_split_1",0,Several prices selectable through a drop-down list or applied automatically via Geo-IP,Beberapa harga dapat dipilih melalui daftar drop-down atau diterapkan secara otomatis melalui Geo-IP,
+website_sale,model,"ir.ui.view,arch_db",website_sale.bill_to,Ship To:,Dikirim ke:,
+website_sale,model,"ir.ui.view,arch_db",website_sale.wizard_checkout,Shipping &amp;,Pengiriman & amp;,
+website_sale,model,"ir.ui.view,arch_db",website_sale.address,Shipping Address,Alamat Pengiriman,
+website_sale,model,"ir.ui.view,arch_db",website_sale.checkout,Shipping Address,Alamat Pengiriman,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_config_settings_view_form,Shipping Connectors,Pengiriman konektor,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_website_config_settings_sale_delivery_settings,Shipping Management,Manajemen Pengiriman,
+website_sale,model,"ir.ui.view,arch_db",website_sale.products,Shop,Toko,
+website_sale,model,"ir.ui.view,arch_db",website_sale.checkout,Shop - Checkout,Toko - Checkout,
+website_sale,model,"ir.ui.view,arch_db",website_sale.payment_token_form_confirm,Shop - Confirm payment,Toko - Konfirmasi pembayaran,
+website_sale,model,"ir.ui.view,arch_db",website_sale.confirmation,Shop - Confirmed,Toko - Dikonfirmasi,
+website_sale,model,"ir.ui.view,arch_db",website_sale.payment,Shop - Select Payment Method,Toko - Pilih Metode Pembayaran,
+website_sale,model,"ir.ui.view,arch_db",website_sale.cart,Shopping Cart,Keranjang belanja,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Shopping Experience,Pengalaman berbelanja,
+website_sale,model,"res.groups,name",website_sale.group_website_multi_image,Show multi image on eCommerce,Tampilkan banyak gambar di eCommerce,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_website_config_settings_group_product_pricelist,Show pricelists On Products,Tampilkan daftar harga pada produk,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_website_config_settings_group_pricelist_item,Show pricelists to customers,Tampilkan daftar harga untuk pelanggan,
+website_sale,model,"ir.ui.view,arch_db",website_sale.address,Sign Up,Sign Up,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_sale,Size,Ukuran,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_product_website_size_x,Size X,Ukuran X,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_template_website_size_x,Size X,Ukuran X,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_product_website_size_y,Size Y,Ukuran Y,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_template_website_size_y,Size Y,Ukuran Y,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_public_category_image_small,Small-sized image,Gambar berukuran kecil,
+website_sale,model,"ir.model.fields,help",website_sale.field_product_public_category_image_small,"Small-sized image of the category. It is automatically resized as a 64x64px image, with aspect ratio preserved. Use this field anywhere a small image is required.","Foto berukuran kecil dari Karyawan. Itu adalah secara otomatis diubah ukurannya sebagai gambar 64x64px, dengan rasio aspek yang diawetkan. Gunakan field ini di mana saja gambar kecil yang diperlukan.",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Some acquirers like Authorize.net and Ingenico can be used as payment gateways with your own payment processor.,Beberapa pengakuisisi seperti Authorize.net dan Ingenico dapat digunakan sebagai gateway pembayaran dengan pemroses pembayaran Anda sendiri.,
+website_sale,code,addons/website_sale/controllers/main.py,503,Some required fields are empty.,Beberapa bidang wajib kosong.,
+website_sale,model,"ir.ui.view,arch_db",website_sale.404,"Sorry, this product is not available anymore.","Maaf, produk ini tidak tersedia lagi.",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Sort by price,Urutkan berdasarkan harga,
+website_sale,selection,"website.config.settings,sale_pricelist_setting_split_2",0,"Specific prices per customer segment, currency, etc.","Harga spesifik per segmen pelanggan, mata uang, dll.",
+website_sale,model,"ir.model.fields,help",website_sale.field_website_config_settings_sale_pricelist_setting_split_2,"Specific prices per customer segment, currency, etc.: new pricing table available in product detail form (Sales tab).
+Advanced pricing based on formulas (discounts, margins, rounding): apply price rules from a new *Pricelists* menu in Configuration.","Harga spesifik per segmen pelanggan, mata uang, dll .: tabel harga baru tersedia dalam bentuk detail produk (tab Sales).
+Penetapan harga lanjutan berdasarkan rumus (diskon, margin, pembulatan): terapkan aturan harga dari menu * Daftar Harga * baru di Konfigurasi.",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Start your online shop by creating 3 products pages.<br/>,Mulailah toko online Anda dengan membuat 3 halaman produk.<br/>,
+website_sale,model,"ir.ui.view,arch_db",website_sale.address,State / Province,Provinsi,
+website_sale,model,"ir.ui.view,arch_db",website_sale.address,State / Province...,Provinsi,
+website_sale,model,"ir.ui.view,arch_db",website_sale.address,"Street <span class=""hidden-xs""> and Number</span>","Street <span class=""hidden-xs""> dan Nomor</span>",
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_style_name,Style Name,Gaya Nama,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_product_website_style_ids,Styles,Gaya,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_template_website_style_ids,Styles,Gaya,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_sale,Styles,Gaya,
+website_sale,model,"ir.ui.view,arch_db",website_sale.confirmation,Subtotal,Sub total,
+website_sale,model,"ir.ui.view,arch_db",website_sale.confirmation,Subtotal:,Sub Total,
+website_sale,model,"ir.model.fields,help",website_sale.field_product_product_alternative_product_ids,Suggest more expensive alternatives to your customers (upsell strategy). Those products show up on the product page.,Sarankan alternatif yang lebih mahal kepada pelanggan Anda (strategi upsell). Produk tersebut muncul di halaman produk.,
+website_sale,model,"ir.model.fields,help",website_sale.field_product_template_alternative_product_ids,Suggest more expensive alternatives to your customers (upsell strategy). Those products show up on the product page.,Sarankan alternatif yang lebih mahal kepada pelanggan Anda (strategi upsell). Produk tersebut muncul di halaman produk.,
+website_sale,selection,"website.config.settings,module_website_sale_options",0,"Suggest optional products when adding to cart (e.g. for a computer: warranty, software, etc.)","Sarankan produk opsional saat menambahkan ke keranjang (mis. Untuk komputer: garansi, perangkat lunak, dll.)",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Suggest options and accessories,Sarankan opsi dan aksesori,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Suggest pricier alternatives,Sarankan alternatif yang lebih mahal,
+website_sale,model,"ir.ui.view,arch_db",website_sale.suggested_products_list,Suggested Accessories:,Aksesoris yang Disarankan:,
+website_sale,model,"ir.ui.view,arch_db",website_sale.payment_token_form_confirm,Summary,Ringkasan,
+website_sale,model,"ir.ui.view,arch_db",website_sale.address,TIN / VAT,TIN / VAT,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Tax ID,PPN,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Taxes,Pajak,
+website_sale,model,"ir.ui.view,arch_db",website_sale.confirmation,Taxes:,Pajak-pajak :,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_website_config_settings_module_delivery_temando,Temando integration,Temando integration,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Terms &amp; Conditions,Syarat &amp; Ketentuan,
+website_sale,model,"ir.ui.view,arch_db",website_sale.terms,Terms &amp;amp; Conditions,Syarat &amp;amp; Ketentuan,
+website_sale,model,"ir.ui.view,arch_db",website_sale.confirmation,Thank you for your order.,Terima kasih atas pesanan Anda.,
+website_sale,model,"ir.ui.view,arch_db",website_sale.terms,"The <b>Intellectual Property</b> disclosure will inform users that the contents, logo and other visual media you created is your property and is protected by copyright laws.","Pengungkapan <b> Kekayaan Intelektual </b> akan menginformasikan kepada pengguna bahwa konten, logo, dan media visual lainnya yang Anda buat adalah milik Anda dan dilindungi oleh undang-undang hak cipta.",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"The first step is to set up your company's information. This is used in several places: Contact us page, website header &amp; footer, printed business documents like orders and invoices, etc.","Langkah pertama adalah menyiapkan informasi perusahaan Anda. Ini digunakan di beberapa tempat: Halaman Hubungi kami, header & amp; footer situs web, dokumen bisnis tercetak seperti pesanan dan faktur, dll.",
+website_sale,model,"ir.model.fields,help",website_sale.field_product_product_website_url,The full URL to access the document through the website.,URL lengkap untuk mengakses server melalui website.,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,The last step in setting up your products is configuring the taxes. Taxes are already predefined for most localizations when it comes to regional transactions. However taxes may be specific to customer kinds and localizations. Take some time to check the following parameters:,Langkah terakhir dalam menyiapkan produk Anda adalah mengonfigurasi pajak. Pajak sudah ditentukan sebelumnya untuk sebagian besar pelokalan dalam hal transaksi regional. Namun pajak mungkin khusus untuk jenis dan lokalisasi pelanggan. Luangkan waktu untuk memeriksa parameter berikut:,
+website_sale,model,"ir.ui.view,arch_db",website_sale.order_state_message,The payment seems to have been canceled.,Pembayaran tampaknya telah dibatalkan.,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,There are two strategies to sell more to a customer:,Ada dua strategi untuk menjual lebih banyak kepada pelanggan:,
+website_sale,code,addons/website_sale/static/src/xml/website_sale_dashboard.xml,23,There is no recent online sale.,Tidak ada penjualan online baru-baru ini.,openerp-web
+website_sale,model,"ir.ui.view,arch_db",website_sale.order_state_message,There seems to be an error with your request.,Sepertinya ada kesalahan dengan permintaan Anda.,
+website_sale,model,"ir.model.fields,help",website_sale.field_product_public_category_image,"This field holds the image used as image for the category, limited to 1024x1024px.","Bidang ini memegang gambar yang digunakan sebagai gambar untuk kategori, terbatas 1024x1024px.",
+website_sale,model,"ir.ui.view,arch_db",website_sale.reduction_code,This promo code is not available,Kode promo ini tidak tersedia,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"To collect payments, you can either request your customers to process it manually (wire transfer, etc.) or redirect them to payment acquirers.<br/>
+                        Using payment acquirers costs you money, so take some time to compare them.","Untuk mengumpulkan pembayaran, Anda dapat meminta pelanggan Anda untuk memprosesnya secara manual (transfer kawat, dll.) Atau mengarahkan mereka ke pengakuisisi pembayaran.<br/>
+                        Menggunakan pengakuisisi pembayaran memerlukan biaya, jadi luangkan waktu untuk membandingkannya.",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"To do so, take the most out of Odoo's <strong>pricing options</strong>:<br/>","Untuk melakukannya, manfaatkan sepenuhnya <strong> opsi harga Odoo</strong>:<br/>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.report_shop_saleorder_document,Total,Total,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_sale_order_payment_tx_id,Transaction,catatan transaksi,
+website_sale,model,"ir.ui.view,arch_db",website_sale.payment_token_form_confirm,Transaction processing ...,Pemrosesan transaksi ...,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_attribute_type,Type,Tipe,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_website_config_settings_module_delivery_ups,UPS integration,UPS integrasi,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_website_config_settings_module_delivery_usps,USPS integration,USPS integrasi,
+website_sale,model,"ir.ui.view,arch_db",website_sale.confirmation,Unit Price,Harga Satuan,
+website_sale,model,"ir.ui.menu,name",website_sale.menu_orders_unpaid_orders,Unpaid Orders,Pesanan yang Belum Dibayar,
+website_sale,model,"ir.actions.act_window,name",website_sale.action_unpaid_orders_ecommerce,Unpaid eCommerce Orders,Pesanan eCommerce yang Belum Dibayar,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Use TaxCloud to compute tax rates automatically,Gunakan TaxCloud untuk menghitung tarif pajak secara otomatis,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Use our import templates to get your catalog ready in no time!,Gunakan template impor kami untuk menyiapkan katalog Anda dalam waktu singkat!,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_website_config_settings_group_sale_pricelist,Use pricelists to adapt your price per customers,Gunakan daftar harga untuk menyesuaikan harga per pelanggan,
+website_sale,model,"ir.ui.view,arch_db",website_sale.cart_popover,View Cart (,Lihat Keranjang(,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_product_website_published,Visible in Website,Terlihat di Situs,
+website_sale,model,"ir.model.fields,help",website_sale.field_rating_rating_website_published,Visible on the website as a comment,Terlihat pada website sebagai komentar,
+website_sale,selection,"product.template,availability",0,Warning,Peringatan,
+website_sale,model,"ir.model,name",website_sale.model_website,Website,Situs Web,
+website_sale,model,"ir.ui.view,arch_db",website_sale.product_template_form_view,Website,Situs Web,
+website_sale,model,"ir.ui.view,arch_db",website_sale.product_template_form_view,Website Categories,Kategori Situs Web,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_product_website_message_ids,Website Comments,Website Komentar,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_template_website_message_ids,Website Comments,Website Komentar,
+website_sale,model,"ir.actions.act_window,name",website_sale.product_public_category_action,Website Product Categories,Kategori Produk Situs Web,
+website_sale,model,"ir.ui.menu,name",website_sale.menu_catalog_categories,Website Product Categories,Kategori Produk Situs Web,
+website_sale,model,"ir.model,name",website_sale.model_product_public_category,Website Product Category,Kategori Produk Situs Web,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_product_public_categ_ids,Website Product Category,Kategori Produk Situs Web,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_template_public_categ_ids,Website Product Category,Kategori Produk Situs Web,
+website_sale,model,"ir.ui.view,arch_db",website_sale.product_public_category_form_view,Website Public Categories,Kategori Umum Situs Web,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_product_website_sequence,Website Sequence,Urutan Situs Web,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_template_website_sequence,Website Sequence,Urutan Situs Web,
+website_sale,model,"ir.actions.act_url,name",website_sale.action_open_website,Website Shop,Website Toko,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_product_website_url,Website URL,URL situs web,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_product_website_meta_description,Website meta description,Deskripsi meta situs web,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_product_website_meta_keywords,Website meta keywords,Situs meta kata kunci,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_product_website_meta_title,Website meta title,Judul meta situs,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_product_website_price,Website price,Harga situs web,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_template_website_price,Website price,Harga situs web,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_product_website_price_difference,Website price difference,Perbedaan harga situs web,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_template_website_price_difference,Website price difference,Perbedaan harga situs web,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_product_website_public_price,Website public price,Harga publik situs web,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_template_website_public_price,Website public price,Harga publik situs web,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_crm_team_website_ids,Websites,Situs web,
+website_sale,model,"ir.model.fields,help",website_sale.field_crm_team_website_ids,Websites using this sales team,Situs web yang menggunakan tim penjualan ini,
+website_sale,model,"ir.ui.view,arch_db",website_sale.payment_token_form_confirm,"Yes, pay with this card","Ya, bayar dengan kartu ini",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,You can setup 3 types of <strong>payment methods in Odoo:</strong>,Anda dapat mengatur 3 jenis <strong>metode pembayaran di Odoo:</strong>,
+website_sale,model,"ir.actions.act_window,help",website_sale.action_abandonned_orders_ecommerce,You don't have any cancelled order from the website.,Anda tidak memiliki pesanan yang dibatalkan dari situs web.,
+website_sale,model,"ir.actions.act_window,help",website_sale.action_orders_ecommerce,You don't have any confirmed order from the website.,Anda tidak memiliki pesanan yang dikonfirmasi dari situs web.,
+website_sale,model,"ir.actions.act_window,help",website_sale.action_unpaid_orders_ecommerce,You don't have any unpaid order from the website.,Anda tidak memiliki pesanan yang belum dibayar dari situs web.,
+website_sale,model,"ir.ui.view,arch_db",website_sale.address,Your Address,Alamat Anda,
+website_sale,model,"ir.ui.view,arch_db",website_sale.address,"Your Address
+                                        <small> or </small>","Alamat Anda
+                                        <small> atau </small>",
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,Your Company,Perusahaan,
+website_sale,model,"ir.ui.view,arch_db",website_sale.address,Your Order,Pesanan Anda,
+website_sale,model,"ir.ui.view,arch_db",website_sale.extra_info,Your Reference,Referensi Anda,
+website_sale,model,"ir.ui.view,arch_db",website_sale.cart_lines,Your cart is empty!,Troli kosong,
+website_sale,model,"ir.ui.view,arch_db",website_sale.cart_popover,Your cart is empty!,Troli kosong,
+website_sale,model,"ir.ui.view,arch_db",website_sale.order_state_message,"Your order has been confirmed, thank you for your loyalty.","Pesanan Anda telah dikonfirmasi, terima kasih atas kesetiaan Anda.",
+website_sale,model,"ir.ui.view,arch_db",website_sale.order_state_message,Your payment has been authorized.,Tagihan Anda telah disahkan.,
+website_sale,model,"ir.ui.view,arch_db",website_sale.order_state_message,Your payment has been received.,Pembayaran telah diterima.,
+website_sale,model,"ir.ui.view,arch_db",website_sale.order_state_message,Your transaction is waiting a manual confirmation.,Transaksi Anda sedang menunggu konfirmasi manual.,
+website_sale,model,"ir.ui.view,arch_db",website_sale.order_state_message,Your transaction is waiting confirmation.,Transaksi Anda sedang menunggu konfirmasi.,
+website_sale,model,"ir.ui.view,arch_db",website_sale.address,Zip Code,Kode Pos,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"all angles, detailed view, package, etc.","semua sudut, tampilan detail, paket, dll.",
+website_sale,model,"ir.ui.view,arch_db",website_sale.reduction_code,code...,Kode,
+website_sale,model,"ir.ui.view,arch_db",website_sale.product_comment,comment,Komentar,
+website_sale,model,"ir.ui.view,arch_db",website_sale.product_comment,comments,komentar,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_website_config_settings_module_sale_ebay,eBay connector,Konektor eBay,
+website_sale,model,"ir.ui.menu,name",website_sale.menu_ecommerce_settings,eCommerce,eCommerce,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_config_settings_view_form,eCommerce,eCommerce,
+website_sale,model,"ir.actions.act_window,name",website_sale.action_orders_ecommerce,eCommerce Orders,Pesanan eCommerce,
+website_sale,model,"ir.ui.view,arch_db",website_sale.search count,found),ditemukan),
+website_sale,model,"ir.ui.view,arch_db",website_sale.cart_popover,items),item),
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,or,atau,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,"product's availability (In Stock, Not Available, etc.)","ketersediaan produk (Dalam Stok, Tidak Tersedia, dll.)",
+website_sale,model,"ir.model,name",website_sale.model_product_attribute_value,product.attribute.value,product.atribut.value,
+website_sale,model,"ir.model,name",website_sale.model_product_image,product.image,gambar produk,
+website_sale,model,"ir.model,name",website_sale.model_product_style,product.style,gaya produk,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,set company logo,logo perusahaan set,
+website_sale,model,"ir.ui.view,arch_db",website_sale.payment_sale_note,terms &amp; conditions,syarat & ketentuan,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,use Odoo API to import through scripts,gunakan API Odoo untuk mengimpor melalui skrip,
+website_sale,model,"ir.model.fields,field_description",website_sale.field_product_pricelist_website_id,website,Website,
+website_sale,model,"ir.model,name",website_sale.model_website_config_settings,website.config.settings,situs web.konfigurasi.pengaturan ,
+website_sale,model,"ir.ui.view,arch_db",website_sale.website_planner,what do the customers think of the product,apa pendapat pelanggan tentang produk,
+website_sale,model,"ir.ui.view,arch_db",website_sale.cart,☑ 256 bit encryption,Enkripsi 256 bit ☑,
+website_sale,model,"ir.ui.view,arch_db",website_sale.cart,☑ 30-days money-back guarantee,☑ 30-hari garansi uang kembali,
+website_sale,model,"ir.ui.view,arch_db",website_sale.cart,☑ Invoice sent by e-Mail,☑ Faktur dikirim melalui e-Mail,
+website_sale,model,"ir.ui.view,arch_db",website_sale.cart,☑ Processed by Ogone,☑ Diproses oleh Ogone,
